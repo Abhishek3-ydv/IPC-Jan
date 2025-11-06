@@ -48,12 +48,12 @@
         }
         /* Mobile Nav Active State */
         .mobile-nav-link.active {
-            color: #4f46e5; /* text-indigo-600 */
+            color: #059669; /* text-emerald-600 */
         }
         /* Desktop Nav Active State */
         .desktop-nav-link.active {
-            background-color: #eef2ff; /* bg-indigo-50 */
-            color: #4338ca; /* text-indigo-700 */
+            background-color: #ecfdf5; /* bg-emerald-50 */
+            color: #047857; /* text-emerald-700 */
         }
     </style>
 </head>
@@ -63,19 +63,19 @@
     <nav class="hidden md:flex fixed top-0 left-0 right-0 bg-white shadow-md z-30 h-16 items-center px-6 justify-between">
         <div class="flex items-center space-x-2">
             <!-- Icon Placeholder -->
-            <svg class="w-8 h-8 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <svg class="w-8 h-8 text-emerald-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M12.75 21h-7.5a2.25 2.25 0 0 1-2.25-2.25V7.5A2.25 2.25 0 0 1 5.25 5.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25a2.25 2.25 0 0 1-2.25 2.25Z" />
             </svg>
             <h1 class="text-xl font-bold text-gray-800">JanJati Connect</h1>
         </div>
         <div class="flex space-x-2">
-            <button data-section="market" class="desktop-nav-link active font-medium px-4 py-2 rounded-lg text-gray-700 hover:bg-indigo-50 hover:text-indigo-700 transition-colors">
+            <button data-section="market" class="desktop-nav-link active font-medium px-4 py-2 rounded-lg text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors">
                 🛒 Marketplace
             </button>
-            <button data-section="culture" class="desktop-nav-link font-medium px-4 py-2 rounded-lg text-gray-700 hover:bg-indigo-50 hover:text-indigo-700 transition-colors">
+            <button data-section="culture" class="desktop-nav-link font-medium px-4 py-2 rounded-lg text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors">
                 🎥 Culture & Shorts
             </button>
-            <button data-section="hub" class="desktop-nav-link font-medium px-4 py-2 rounded-lg text-gray-700 hover:bg-indigo-50 hover:text-indigo-700 transition-colors">
+            <button data-section="hub" class="desktop-nav-link font-medium px-4 py-2 rounded-lg text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors">
                 🏛️ Opportunity Hub
             </button>
         </div>
@@ -83,7 +83,7 @@
             <!-- Offline Mode Toggle -->
             <div class="flex items-center space-x-2">
                 <span id="offline-status" class="text-xs font-medium text-gray-500">Offline Mode</span>
-                <button id="offline-toggle" class="relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent bg-gray-200 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2" type="button" role="switch" aria-checked="false">
+                <button id="offline-toggle" class="relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent bg-gray-200 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-emerald-600 focus:ring-offset-2" type="button" role="switch" aria-checked="false">
                     <span class="pointer-events-none relative inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out translate-x-0">
                         <span class="absolute inset-0 flex h-full w-full items-center justify-center transition-opacity opacity-100 ease-in duration-200" aria-hidden="true">
                             <svg class="h-3 w-3 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -91,15 +91,15 @@
                             </svg>
                         </span>
                         <span class="absolute inset-0 flex h-full w-full items-center justify-center transition-opacity opacity-0 ease-out duration-100" aria-hidden="true">
-                            <svg class="h-3 w-3 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <svg class="h-3 w-3 text-emerald-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                               <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
                         </span>
                     </span>
                 </button>
             </div>
-            <button class="font-medium text-indigo-600 hover:text-indigo-800">Login</button>
-            <button class="bg-indigo-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors">
+            <button class="font-medium text-emerald-600 hover:text-emerald-800">Login</button>
+            <button class="bg-emerald-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-emerald-700 transition-colors">
                 Sign Up
             </button>
         </div>
@@ -121,7 +121,7 @@
                 <!-- Search & Filter -->
                 <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mb-6">
                     <div class="relative flex-grow">
-                        <input type="text" placeholder="Search for products, artisans, or villages..." class="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        <input type="text" placeholder="Search for products, artisans, or villages..." class="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-500">
                         <svg class="w-5 h-5 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                         </svg>
@@ -143,7 +143,7 @@
                             <h3 class="font-semibold text-lg text-gray-800">Dhokra Nandi Bull</h3>
                             <p class="text-sm text-gray-500">By Mangal Singh, Bastar</p>
                             <div class="flex justify-between items-center mt-3">
-                                <span class="font-bold text-indigo-600 text-lg">₹1,200</span>
+                                <span class="font-bold text-emerald-600 text-lg">₹1,200</span>
                                 <div class="flex items-center space-x-1 text-green-600">
                                     <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
                                       <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h6m3-3.75l-3 3 3 3m6-3l3 3-3 3" />
@@ -160,7 +160,7 @@
                             <h3 class="font-semibold text-lg text-gray-800">Saura Painting</h3>
                             <p class="text-sm text-gray-500">By Lita Sabar, Jharkhand</p>
                             <div class="flex justify-between items-center mt-3">
-                                <span class="font-bold text-indigo-600 text-lg">₹850</span>
+                                <span class="font-bold text-emerald-600 text-lg">₹850</span>
                                 <div class="flex items-center space-x-1 text-green-600">
                                     <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
                                       <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h6m3-3.75l-3 3 3 3m6-3l3 3-3 3" />
@@ -177,7 +177,7 @@
                             <h3 class="font-semibold text-lg text-gray-800">Hand-Woven Basket</h3>
                             <p class="text-sm text-gray-500">Ho Community, Odisha</p>
                             <div class="flex justify-between items-center mt-3">
-                                <span class="font-bold text-indigo-600 text-lg">₹400</span>
+                                <span class="font-bold text-emerald-600 text-lg">₹400</span>
                                 <div class="flex items-center space-x-1 text-green-600">
                                     <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
                                       <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h6m3-3.75l-3 3 3 3m6-3l3 3-3 3" />
@@ -194,7 +194,7 @@
                             <h3 class="font-semibold text-lg text-gray-800">Gond Tree of Life</h3>
                             <p class="text-sm text-gray-500">By Narmada Tekam, MP</p>
                             <div class="flex justify-between items-center mt-3">
-                                <span class="font-bold text-indigo-600 text-lg">₹2,500</span>
+                                <span class="font-bold text-emerald-600 text-lg">₹2,500</span>
                                 <div class="flex items-center space-x-1 text-green-600">
                                     <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
                                       <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h6m3-3.75l-3 3 3 3m6-3l3 3-3 3" />
@@ -222,7 +222,7 @@
                 <div class="mb-6">
                     <div class="border-b border-gray-200">
                         <nav class="-mb-px flex space-x-8" aria-label="Tabs">
-                            <button class="border-indigo-500 text-indigo-600 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">
+                            <button class="border-emerald-500 text-emerald-600 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">
                                 Shorts
                             </button>
                             <button class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">
@@ -246,7 +246,7 @@
                                     <p class="text-sm text-gray-500">Saura Artist, Jharkhand</p>
                                 </div>
                             </div>
-                            <button class="bg-indigo-50 text-indigo-600 px-4 py-2 rounded-full font-medium text-sm hover:bg-indigo-100">
+                            <button class="bg-emerald-50 text-emerald-600 px-4 py-2 rounded-full font-medium text-sm hover:bg-emerald-100">
                                 Follow
                             </button>
                         </div>
@@ -267,7 +267,7 @@
                     <article class="bg-white rounded-xl shadow-lg overflow-hidden">
                         <div class="relative">
                             <img class="w-full h-48 object-cover" src="https://placehold.co/600x250/a78bfa/ffffff?text=Dokra+Workshop+LIVE" alt="Live Workshop">
-                            <span class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse">
+                            <span class="absolute top-3 left-3 bg-rose-600 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse">
                                 LIVE NOW
                             </span>
                         </div>
@@ -275,7 +275,7 @@
                             <h3 class="font-semibold text-lg text-gray-800">Live Dokra Making + Q&A</h3>
                             <p class="text-sm text-gray-500">By Mangal Singh, Bastar</p>
                             <div class="mt-4 flex flex-col md:flex-row md:items-center md:justify-between space-y-3 md:space-y-0">
-                                <button class="w-full md:w-auto bg-red-600 text-white px-5 py-3 rounded-lg font-medium hover:bg-red-700 transition-colors">
+                                <button class="w-full md:w-auto bg-rose-600 text-white px-5 py-3 rounded-lg font-medium hover:bg-rose-700 transition-colors">
                                     Join Livestream & Buy
                                 </button>
                                 <div class="flex items-center space-x-2">
@@ -328,9 +328,9 @@
                         <div>
                             <div class="flex justify-between items-center mb-4">
                                 <h3 class="text-xl font-bold text-gray-900">Local Job Board</h3>
-                                <button class="flex items-center space-x-2 text-sm font-medium text-indigo-600 hover:text-indigo-800">
+                                <button class="flex items-center space-x-2 text-sm font-medium text-emerald-600 hover:text-emerald-800">
                                     <span>Filter: Women-Only</span>
-                                    <input type="checkbox" class="h-4 w-4 rounded text-indigo-600 focus:ring-indigo-500">
+                                    <input type="checkbox" class="h-4 w-4 rounded text-emerald-600 focus:ring-emerald-500">
                                 </button>
                             </div>
                             <div class="space-y-4">
@@ -340,7 +340,7 @@
                                         <h4 class="font-semibold text-lg text-gray-800">Weaving Assistant</h4>
                                         <p class="text-sm text-gray-500">Ranchi Textiles Ltd. • Ranchi, Jharkhand</p>
                                     </div>
-                                    <button class="mt-3 md:mt-0 w-full md:w-auto flex-shrink-0 bg-indigo-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors text-sm">
+                                    <button class="mt-3 md:mt-0 w-full md:w-auto flex-shrink-0 bg-emerald-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-emerald-700 transition-colors text-sm">
                                         Apply Now
                                     </button>
                                 </div>
@@ -351,7 +351,7 @@
                                         <p class="text-sm text-gray-500">Odisha Eco Tours • Mayurbhanj, Odisha</p>
                                         <span class="mt-2 inline-block bg-pink-100 text-pink-700 text-xs font-medium px-2 py-0.5 rounded-full">Women-Only</span>
                                     </div>
-                                    <button class="mt-3 md:mt-0 w-full md:w-auto flex-shrink-0 bg-indigo-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors text-sm">
+                                    <button class="mt-3 md:mt-0 w-full md:w-auto flex-shrink-0 bg-emerald-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-emerald-700 transition-colors text-sm">
                                         Apply Now
                                     </button>
                                 </div>
@@ -367,7 +367,7 @@
                                     <span class="text-xs font-medium bg-green-100 text-green-700 px-2 py-0.5 rounded-full">Mudra Loan</span>
                                     <h4 class="font-semibold text-lg text-gray-800 mt-2">Stand-Up India Scheme</h4>
                                     <p class="text-sm text-gray-600 mt-1">Loans from ₹10 lakh to ₹1 crore for enterprises run by ST/SC or women entrepreneurs.</p>
-                                    <button class="mt-3 text-sm font-medium text-indigo-600 hover:text-indigo-800">
+                                    <button class="mt-3 text-sm font-medium text-emerald-600 hover:text-emerald-800">
                                         Learn More & Apply &rarr;
                                     </button>
                                 </div>
@@ -376,7 +376,7 @@
                                     <span class="text-xs font-medium bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full">TRIFED</span>
                                     <h4 class="font-semibold text-lg text-gray-800 mt-2">Van Dhan Vikas Yojana</h4>
                                     <p class="text-sm text-gray-600 mt-1">Value addition, branding & marketing of Minor Forest Produces by establishing Van Dhan Kendras.</p>
-                                    <button class="mt-3 text-sm font-medium text-indigo-600 hover:text-indigo-800">
+                                    <button class="mt-3 text-sm font-medium text-emerald-600 hover:text-emerald-800">
                                         Learn More & Apply &rarr;
                                     </button>
                                 </div>
@@ -404,7 +404,7 @@
                             <!-- Seller Message (Translated to Santali) -->
                             <div class="flex justify-end">
                                 <div class="max-w-xs lg:max-w-md text-right">
-                                    <div class="bg-indigo-600 text-white p-3 rounded-lg rounded-br-none">
+                                    <div class="bg-emerald-600 text-white p-3 rounded-lg rounded-br-none">
                                         <p class="text-sm">[AI] ᱡᱚᱦᱟᱨ, ᱤᱧ ᱢᱤᱫ ᱦᱚᱴᱮᱞ ᱜᱨᱩᱯ ᱠᱷᱚᱱ ᱤᱧ ᱦᱮᱡ ᱟᱠᱟᱱᱟ᱾ ᱟᱞᱮ ᱕᱐᱐ ᱜᱚᱴᱟᱝ  ké-bōN bāskēṭ ᱚᱨᱰᱚᱨ ᱞᱟᱹᱜᱤᱫ ᱞᱮ ຕ້ອງ ᱠᱟᱱᱟ།</p>
                                     </div>
                                     <p class="text-xs text-gray-400 mt-1">You see (Santali)</p>
@@ -414,13 +414,13 @@
                         <!-- Chat Input -->
                         <div class="p-4 border-t border-gray-200 bg-gray-50 rounded-b-xl">
                             <div class="flex items-center space-x-2">
-                                <select id="seller-lang-select" class="text-xs border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500">
+                                <select id="seller-lang-select" class="text-xs border-gray-300 rounded-lg focus:ring-emerald-500 focus:border-emerald-500">
                                     <option>Santali</option>
                                     <option>Ho</option>
                                     <option>Gondi</option>
                                 </select>
-                                <input type="text" id="chat-input" placeholder="Type in your language..." class="flex-grow border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm">
-                                <button id="send-btn" class="flex-shrink-0 bg-indigo-600 text-white p-2 rounded-lg hover:bg-indigo-700">
+                                <input type="text" id="chat-input" placeholder="Type in your language..." class="flex-grow border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-sm">
+                                <button id="send-btn" class="flex-shrink-0 bg-emerald-600 text-white p-2 rounded-lg hover:bg-emerald-700">
                                     <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
                                     </svg>
@@ -437,19 +437,19 @@
 
     <!-- === 3. MOBILE BOTTOM NAVIGATION (Hidden on Desktop) === -->
     <nav class="md:hidden fixed bottom-0 left-0 right-0 bg-white h-16 border-t border-gray-200 flex justify-around items-center z-30">
-        <button data-section="market" class="mobile-nav-link active flex flex-col items-center justify-center text-gray-600 hover:text-indigo-600 transition-colors">
+        <button data-section="market" class="mobile-nav-link active flex flex-col items-center justify-center text-gray-600 hover:text-emerald-600 transition-colors">
             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 21v-7.5A2.25 2.25 0 0 0 11.25 11.25H8.25A2.25 2.25 0 0 0 6 13.5V21M6 21h12M6 21H4.5m15 0H18m-3-5.25v5.25m-3-5.25v5.25m-3-5.25v5.25M3 9l9-6 9 6M3 9v11.25M21 9v11.25" />
             </svg>
             <span class="text-xs font-medium mt-1">Market</span>
         </button>
-        <button data-section="culture" class="mobile-nav-link flex flex-col items-center justify-center text-gray-600 hover:text-indigo-600 transition-colors">
+        <button data-section="culture" class="mobile-nav-link flex flex-col items-center justify-center text-gray-600 hover:text-emerald-600 transition-colors">
             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9A2.25 2.25 0 0 0 13.5 5.25h-9A2.25 2.25 0 0 0 2.25 7.5v9A2.25 2.25 0 0 0 4.5 18.75Z" />
             </svg>
             <span class="text-xs font-medium mt-1">Culture</span>
         </button>
-        <button data-section="hub" class="mobile-nav-link flex flex-col items-center justify-center text-gray-600 hover:text-indigo-600 transition-colors">
+        <button data-section="hub" class="mobile-nav-link flex flex-col items-center justify-center text-gray-600 hover:text-emerald-600 transition-colors">
             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.05a2.25 2.25 0 0 1-2.25 2.25h-15A2.25 2.25 0 0 1 .75 18.2v-4.05m19.5 0a2.25 2.25 0 0 0-2.25-2.25H2.25A2.25 2.25 0 0 0 0 14.15m19.5 0v-2.1a2.25 2.25 0 0 0-2.25-2.25H2.25a2.25 2.25 0 0 0-2.25 2.25v2.1m19.5 0A2.25 2.25 0 0 0 18 12H6a2.25 2.25 0 0 0-2.25 2.25m13.5 0V9a2.25 2.25 0 0 0-2.25-2.25H9A2.25 2.25 0 0 0 6.75 9v3.15m13.5 0A2.25 2.25 0 0 0 18 12H6a2.25 2.25 0 0 0-2.25 2.25" />
             </svg>
@@ -458,12 +458,12 @@
     </nav>
 
     <!-- === 4. "SELL PRODUCT" FLOATING ACTION BUTTON (FAB) === -->
-    <button id="open-sell-modal" class="md:hidden fixed bottom-20 right-5 bg-indigo-600 text-white rounded-full p-4 shadow-lg hover:bg-indigo-700 transition-transform hover:scale-105 z-20">
+    <button id="open-sell-modal" class="md:hidden fixed bottom-20 right-5 bg-emerald-600 text-white rounded-full p-4 shadow-lg hover:bg-emerald-700 transition-transform hover:scale-105 z-20">
         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
         </svg>
     </button>
-    <button id="open-sell-modal-desktop" class="hidden md:block fixed bottom-8 right-8 bg-indigo-600 text-white rounded-lg p-3 shadow-lg hover:bg-indigo-700 transition-transform hover:scale-105 z-20">
+    <button id="open-sell-modal-desktop" class="hidden md:block fixed bottom-8 right-8 bg-emerald-600 text-white rounded-lg p-3 shadow-lg hover:bg-emerald-700 transition-transform hover:scale-105 z-20">
         <svg class="w-6 h-6 mr-2 inline" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
         </svg>
@@ -493,7 +493,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm1.5-6h.008v.008H4.5v-.008Zm1.5 0h.008v.008H6v-.008Zm1.5 0h.008v.008H7.5v-.008Z" />
                             </svg>
                             <div class="mt-4 flex text-sm leading-6 text-gray-600">
-                                <label for="file-upload" class="relative cursor-pointer rounded-md bg-white font-semibold text-indigo-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-indigo-500">
+                                <label for="file-upload" class="relative cursor-pointer rounded-md bg-white font-semibold text-emerald-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-emerald-600 focus-within:ring-offset-2 hover:text-emerald-500">
                                     <span>Upload a file</span>
                                     <input id="file-upload" name="file-upload" type="file" class="sr-only">
                                 </label>
@@ -506,7 +506,7 @@
                 <!-- Step 2: Language -->
                 <div>
                     <label for="tribal-lang" class="block font-medium text-gray-700">2. Select Your Language</label>
-                    <select id="tribal-lang" class="mt-2 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                    <select id="tribal-lang" class="mt-2 block w-full rounded-lg border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500">
                         <option>Santali</option>
                         <option>Ho</option>
                         <option>Mundari</option>
@@ -518,7 +518,7 @@
                 <!-- Step 3: Description -->
                 <div>
                     <label for="tribal-desc" class="block font-medium text-gray-700">3. Write Description (in your language)</label>
-                    <textarea id="tribal-desc" rows="3" class="mt-2 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" placeholder="Product details..."></textarea>
+                    <textarea id="tribal-desc" rows="3" class="mt-2 block w-full rounded-lg border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500" placeholder="Product details..."></textarea>
                 </div>
 
                 <!-- Step 4: AI Translation (Mock) -->
@@ -534,7 +534,7 @@
                         <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                             <span class="text-gray-500 sm:text-sm">₹</span>
                         </div>
-                        <input type="text" id="price" class="block w-full rounded-lg border-gray-300 pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500" placeholder="0.00">
+                        <input type="text" id="price" class="block w-full rounded-lg border-gray-300 pl-7 pr-12 focus:border-emerald-500 focus:ring-emerald-500" placeholder="0.00">
                         <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3">
                             <span class="text-gray-500 sm:text-sm">INR</span>
                         </div>
@@ -549,7 +549,7 @@
                     </svg>
                     <span class="text-sm text-gray-600">Money goes directly to your UPI.</span>
                 </div>
-                <button class="bg-indigo-600 text-white px-5 py-2.5 rounded-lg font-medium hover:bg-indigo-700 transition-colors">
+                <button class="bg-emerald-600 text-white px-5 py-2.5 rounded-lg font-medium hover:bg-emerald-700 transition-colors">
                     Upload Product
                 </button>
             </div>
@@ -646,7 +646,7 @@
                     messageDiv.classList.add('justify-end');
                     messageDiv.innerHTML = `
                         <div class="max-w-xs lg:max-w-md text-right">
-                            <div class="bg-indigo-600 text-white p-3 rounded-lg rounded-br-none">
+                            <div class="bg-emerald-600 text-white p-3 rounded-lg rounded-br-none">
                                 <p class="text-sm">${text}</p>
                             </div>
                             <p class="text-xs text-gray-400 mt-1">You (${lang})</p>
@@ -717,20 +717,20 @@
                 
                 if (isOffline) {
                     offlineToggle.classList.remove('bg-gray-200');
-                    offlineToggle.classList.add('bg-indigo-600');
+                    offlineToggle.classList.add('bg-emerald-600');
                     toggleKnob.classList.add('translate-x-5');
                     toggleKnob.children[0].classList.add('opacity-0');
                     toggleKnob.children[1].classList.remove('opacity-0');
                     offlineStatus.textContent = 'Offline (Syncing)';
-                    offlineStatus.classList.add('text-indigo-600', 'font-semibold');
+                    offlineStatus.classList.add('text-emerald-600', 'font-semibold');
                 } else {
                     offlineToggle.classList.add('bg-gray-200');
-                    offlineToggle.classList.remove('bg-indigo-600');
+                    offlineToggle.classList.remove('bg-emerald-600');
                     toggleKnob.classList.remove('translate-x-5');
                     toggleKnob.children[0].classList.remove('opacity-0');
                     toggleKnob.children[1].classList.add('opacity-0');
                     offlineStatus.textContent = 'Offline Mode';
-                    offlineStatus.classList.remove('text-indigo-600', 'font-semibold');
+                    offlineStatus.classList.remove('text-emerald-600', 'font-semibold');
                 }
             });
 
